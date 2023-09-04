@@ -21,6 +21,6 @@ public class SplScreen extends AppCompatActivity {
             public void run() {
                 startActivity(new Intent(SplScreen.this, MainActivity.class));
             }
-        },4000);
+        },3000);
     }
 }
